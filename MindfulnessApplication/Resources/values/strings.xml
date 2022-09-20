@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MindfulnessApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="philosophyGuide">Philosophy Guide</string>
+    <string name="mindfulnessExercise">Mindfulness Exercise</string>
+    <string name="dailyChallenges">Daily Challenges</string>
+</resources>

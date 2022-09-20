@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
+
+    >
+    <TextView
+        android:text="Welcome User"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:text="@string/mindfulnessExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mindfulnessExercise"
+        android:background="#ff880e4f"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" 
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:text="@string/dailyChallenges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/dailyChallenges"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#fffb8c00" 
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:text="@string/philosophyGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/philosophyGuide"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff1b5e20" 
+        android:layout_marginTop="10dp"
+    />
+
+</LinearLayout>
